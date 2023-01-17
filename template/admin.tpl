@@ -18,7 +18,8 @@ if (document.getElementById("text") != null)
   var editor = CodeMirror.fromTextArea(document.getElementById("text"), {ldelim}
     matchBrackets: true,
     mode: "{$CODEMIRROR_MODE}",
-    tabMode: "shift"
+    tabMode: "shift",
+    lineNumbers: true
   });
 {/footer_script}
 
